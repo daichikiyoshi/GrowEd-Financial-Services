@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GrowEd Financial Services | Educational Saving Plan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="loading-screen" aria-label="Loading GrowEd Financial Services">
+    <div class="loading-bg" aria-hidden="true">
+      <span class="leaf l1"></span><span class="leaf l2"></span><span class="leaf l3"></span>
+      <span class="leaf l4"></span><span class="leaf l5"></span>
+    </div>
+    <div class="loading-content">
+      <img class="loading-logo" src="loading.png" alt="GrowEd Financial Services">
+      <div class="loading-spinner" aria-hidden="true"></div>
+      <div class="loading-text">Loading...</div>
+    </div>
+  </div>
+
+  <div id="main-content">
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#home">
+        <span class="brand-mark"><img src="logo.png" alt="GrowEd logo"></span>
+        <span>
+          <strong>GrowEd</strong>
+          <small>Financial Services</small>
+        </span>
+      </a>
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#goal">Client Goal</a>
+        <a href="#annuity">Annuity</a>
+        <a href="#comparison">Plans</a>
+        <a href="#calculator">Calculator</a>
+        <a href="#contingency">Contingency</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">EDUCATIONAL SAVING PLAN</p>
+          <h1>Watering the roots that bloom a better tomorrow.</h1>
+          <p class="hero-text">
+            A structured savings plan designed around regular monthly deposits
+            for a child's future college education.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#calculator">See the computation</a>
+            <a class="btn secondary" href="#comparison">Compare plans</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="card-label">GrowEd Plan A</div>
+          <div class="big-number">₱2,000,000</div>
+          <p>Target education fund</p>
+          <div class="mini-grid">
+            <div><strong>18 years</strong><span>Timeframe</span></div>
+            <div><strong>4%</strong><span>Annual interest</span></div>
+            <div><strong>Monthly</strong><span>Deposits</span></div>
+            <div><strong>₱6,337.29</strong><span>Required deposit</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="notice">
+      <div class="container">
+        <strong>School project notice:</strong> This website presents the fictional
+        GrowEd Financial Services educational saving plan from the brochure.
+      </div>
+    </section>
+
+    <section id="goal" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">CLIENT GOAL</p>
+          <h2>Preparing for four years of university education</h2>
+        </div>
+
+        <div class="goal-grid">
+          <div class="goal-card">
+            <span class="icon">👨‍👩‍👦</span>
+            <h3>Clients</h3>
+            <p>Maria &amp; Fernando Legaspi, parents of a newborn</p>
+          </div>
+          <div class="goal-card">
+            <span class="icon">🎓</span>
+            <h3>Financial Goal</h3>
+            <p>College Education Fund for Private Universities</p>
+          </div>
+          <div class="goal-card">
+            <span class="icon">💰</span>
+            <h3>Target Amount</h3>
+            <p>₱2,000,000</p>
+          </div>
+          <div class="goal-card">
+            <span class="icon">📅</span>
+            <h3>Timeframe</h3>
+            <p>18 years, with monthly deposits</p>
+          </div>
+        </div>
+
+        <div class="story">
+          <p>
+            Maria and Fernando want to ensure that their firstborn child's
+            four-year university education is fully funded by the time their
+            child turns 18 without relying on loans. By starting at birth,
+            they choose a structured, simple annuity plan that makes saving
+            manageable and organized through regular monthly deposits.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="annuity" class="section alt">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">ANNUITY EXPLANATION</p>
+          <h2>Simple ordinary annuity</h2>
+        </div>
+
+        <div class="annuity-grid">
+          <div class="info-panel">
+            <h3>What type of annuity is used?</h3>
+            <p>
+              The brochure describes a <strong>simple annuity</strong> because
+              the payment period matches the interest-compounding period.
+              Deposits are made monthly and interest is compounded monthly.
+              It is also an <strong>ordinary annuity</strong>.
+            </p>
+          </div>
+
+          <div class="formula-panel">
+            <h3>Future Value Formula</h3>
+            <div class="formula">FV = A × [((1 + i)<sup>n</sup> − 1) / i]</div>
+            <ul class="given-list">
+              <li><strong>FV:</strong> ₱2,000,000</li>
+              <li><strong>Annual interest rate:</strong> 4%</li>
+              <li><strong>Monthly rate:</strong> 0.04 ÷ 12 = 0.00333333333</li>
+              <li><strong>Number of payments:</strong> 18 × 12 = 216</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="computation">
+          <h3>Sample computation</h3>
+          <div class="steps">
+            <div><span>1</span><p>Substitute the known values into the future-value formula.</p></div>
+            <div><span>2</span><p>2,000,000 = A(315.5924483)</p></div>
+            <div><span>3</span><p>A = 2,000,000 ÷ 315.5924483</p></div>
+            <div class="answer"><span>✓</span><p><strong>Required monthly deposit = ₱6,337.29</strong></p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="comparison" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">PLAN COMPARISON</p>
+          <h2>Plan A vs. Plan B</h2>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Feature</th>
+                <th>Plan A — GrowEd</th>
+                <th>Plan B — Generic Savings Account</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Interest Rate</td><td>4%</td><td>0.25%</td></tr>
+              <tr><td>Monthly Deposit</td><td>₱6,337.29</td><td>₱9,058</td></tr>
+              <tr><td>Total of All Deposits</td><td>₱1,369,656*</td><td>₱1,956,528</td></tr>
+              <tr><td>Out-of-Pocket Savings</td><td>₱1,368,854.64*</td><td>₱1,956,528</td></tr>
+              <tr><td>Estimated Value at 18 Years</td><td>₱2,000,000</td><td>Baseline comparison</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="table-note">
+          *The brochure shows both ₱1,369,656 and ₱1,368,854.64 in its plan-comparison
+          area. The ₱1,368,854.64 figure equals ₱6,337.29 × 216 and is the amount
+          used by the timeline. The website keeps the brochure figures visible rather
+          than silently changing them.
+        </p>
+
+        <div class="comparison-cards">
+          <article>
+            <h3>Why Plan A is presented in the brochure</h3>
+            <p>
+              The brochure says GrowEd requires a lower monthly deposit at a
+              higher interest rate and presents the plan as helping clients
+              reach their goal efficiently.
+            </p>
+          </article>
+          <article>
+            <h3>What to keep in mind</h3>
+            <p>
+              The brochure identifies inflation and sudden loss of income as
+              possible risks, along with medical emergencies.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="calculator" class="section alt">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">INTERACTIVE TOOL</p>
+          <h2>Education Fund Calculator</h2>
+          <p>Use the same ordinary-annuity formula featured in the brochure.</p>
+        </div>
+
+        <div class="calculator-grid">
+          <div class="calculator-card">
+            <label>
+              Target amount (₱)
+              <input id="target" type="number" value="2000000" min="1" step="1000">
+            </label>
+            <label>
+              Annual interest rate (%)
+              <input id="rate" type="number" value="4" min="0" step="0.01">
+            </label>
+            <label>
+              Years
+              <input id="years" type="number" value="18" min="1" step="1">
+            </label>
+            <label>
+              Payments per year
+              <select id="payments">
+                <option value="12" selected>12 — Monthly</option>
+                <option value="4">4 — Quarterly</option>
+                <option value="2">2 — Semi-annually</option>
+                <option value="1">1 — Annually</option>
+              </select>
+            </label>
+            <button class="btn primary full" id="calculate">Calculate</button>
+          </div>
+
+          <div class="results-card">
+            <p class="result-label">Estimated regular payment</p>
+            <div class="result-main" id="paymentResult">₱6,337.29</div>
+            <div class="result-row">
+              <span>Total contributions</span>
+              <strong id="contributionResult">₱1,368,854.64</strong>
+            </div>
+            <div class="result-row">
+              <span>Estimated interest growth</span>
+              <strong id="interestResult">₱631,145.36</strong>
+            </div>
+            <p class="result-note">
+              Results are mathematical estimates based on the ordinary-annuity
+              formula and the values entered.
+            </p>
+          </div>
+        </div>
+
+        <div class="chart-card">
+          <div class="chart-header">
+            <div>
+              <p class="eyebrow">SAVINGS TIMELINE</p>
+              <h3>GrowEd Plan A projection</h3>
+            </div>
+            <span class="legend">Estimated value</span>
+          </div>
+          <canvas id="growthChart" width="1000" height="420"></canvas>
+          <div class="timeline-labels">
+            <span>Year 3</span><span>Year 6</span><span>Year 9</span>
+            <span>Year 12</span><span>Year 15</span><span>Year 18</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contingency" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">RISKS &amp; CONTINGENCY PLAN</p>
+          <h2>Keep the education goal on track</h2>
+        </div>
+
+        <div class="risk-grid">
+          <article><h3>Medical emergencies</h3><p>Keep an active emergency fund.</p></article>
+          <article><h3>Inflation</h3><p>Review the target and savings needs as circumstances change.</p></article>
+          <article><h3>Sudden loss of income</h3><p>Use an emergency fund and adjust contributions when necessary.</p></article>
+          <article><h3>Helpful actions</h3><p>Utilize auto-payment and deposit extra payments whenever possible.</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand footer-brand">
+          <span class="brand-mark"><img src="logo.png" alt="GrowEd logo"></span>
+          <span><strong>GrowEd</strong><small>Financial Services</small></span>
+        </div>
+        <p>“Education is the best gift anyone can receive!”</p>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <p>617 Scholar Avenue, Quezon City</p>
+        <p>(0948) 677 897</p>
+        <p>growed.financial.services@gmail.com</p>
+        <p>https://grow-ed-financial-services.vercel.app</p>
+      </div>
+      <div>
+        <h3>Project note</h3>
+        <p>This is a fictional financial-services concept created for a General Mathematics performance task.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">© GrowEd Financial Services — Educational Saving Plan</div>
+  </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
